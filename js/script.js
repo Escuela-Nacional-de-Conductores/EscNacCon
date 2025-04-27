@@ -1,0 +1,2 @@
+function showTab(id){ document.querySelectorAll('.tab').forEach(s=>s.classList.remove('active')); document.getElementById(id).classList.add('active'); }
+document.getElementById('year').textContent = new Date().getFullYear();
